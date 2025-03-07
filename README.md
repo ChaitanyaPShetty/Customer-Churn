@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on developing and training Machine Learning models to predict customer churn. By analyzing customer data, we aim to identify patterns that indicate a customer's likelihood of leaving the service. This information can then be used to implement proactive retention strategies.
+This project aims to predict customer churn in the telecommunication industry using machine learning models. By analyzing customer data, the goal is to identify at-risk customers and provide insights to improve retention strategies.This project aims to predict customer churn in the telecommunication industry using machine learning models. By analyzing customer data, the goal is to identify at-risk customers and provide insights to improve retention strategies.
 
 ## Key Objectives
 
@@ -11,10 +11,12 @@ This project focuses on developing and training Machine Learning models to predi
 * Improve model efficiency by implementing feature selection and dimensionality reduction techniques.
 * Clean and preprocess data, including handling missing values.
 
-## Methodology
+## Data and Methodology
 
 1.  **Data Preprocessing:**
+    * Dataset: 99,999 records, 226 features (demographics, billing, usage, etc.).
     * Cleaned and preprocessed the dataset, handling missing values.
+    Preprocessing: Feature selection (PCA, RFE), class balancing (SMOTE), and normalization.
 2.  **Exploratory Data Analysis (EDA):**
     * Performed EDA to understand the data distribution and identify potential features influencing customer churn.
 3.  **Feature Engineering:**
